@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(){
+	char a = 'this';
+	switch (a) {
+	  case 'a':
+	  printf("flase");
+	  break;
+	  
+	  case 'b':
+	  printf("hi");
+	  break;
+	  
+	  case 'c':
+	  printf("but");
+	  break;
+	  
+	  case 'd':
+	  printf("guess");
+	  break;
+	  
+	  case 'e':
+	  printf("true");
+	  break;
+	  
+	  default:
+	  printf("hello");
+	}
+	return 0;
+	}
+//output is hello
